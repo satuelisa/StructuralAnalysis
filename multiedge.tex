@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\graph[spring layout, sibling distance=5.0cm,edges={nodes={ sloped, inner sep=10pt } },nodes={circle, draw} ]{
+v[as={v}];
+w[as={w}];
+v -- [edge label=b, bend left=10, thick]w;
+v -- [edge label=a, bend right=10]w;
+};
+\end{tikzpicture}

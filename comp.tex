@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+\graph[spring layout, sibling distance=5.0cm,edges={nodes={sloped, inner sep=10pt}}, nodes={circle, draw}]{
+0[as={0},fill=cyan];
+1[as={1}];
+2[as={2},fill=orange];
+3[as={3},fill=orange];
+4[as={4},fill=cyan];
+5[as={5},fill=orange];
+6[as={6},fill=cyan];
+7[as={7}];
+8[as={8},fill=cyan];
+9[as={9},fill=cyan];
+10[as={10},fill=orange];
+11[as={11}];
+12[as={12},fill=cyan];
+13[as={13}];
+14[as={14},fill=cyan];
+15[as={15},fill=cyan];
+16[as={16},fill=orange];
+17[as={17},fill=cyan];
+18[as={18},fill=orange];
+19[as={19},fill=cyan];
+20[as={20}];
+21[as={21},fill=orange];
+22[as={22}];
+0 -- [ultra thick]6;
+0 -- [ultra thick]8;
+0 -- 9;
+0 -- 14;
+2 -- [ultra thick]5;
+3 -- [ultra thick]10;
+4 -- [ultra thick]8;
+5 -- [ultra thick]21;
+6 -- 12;
+6 -- [ultra thick]15;
+8 -- 12;
+9 -- 14;
+10 -- [ultra thick]18;
+12 -- 17;
+15 -- [ultra thick]19;
+16 -- 21;
+18 -- [ultra thick]21;
+};
+\end{tikzpicture})

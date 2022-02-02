@@ -13,4 +13,4 @@ def fig(G, color, highlight, filename):
             else:
                 print(f'{s} -- {t};', file = target)            
         print('};', file = target)
-        print('\\end{tikzpicture})', file = target)
+        print('\\end{tikzpicture}', file = target)
